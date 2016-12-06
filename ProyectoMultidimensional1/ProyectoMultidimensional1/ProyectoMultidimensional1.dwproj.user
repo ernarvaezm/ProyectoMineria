@@ -4,7 +4,7 @@
       <Name>Development</Name>
       <Options>
         <TargetServer>WIN-NGMN8G58O94\ISW911</TargetServer>
-        <TargetDatabase>BI_DW</TargetDatabase>
+        <TargetDatabase>BD_CUBO</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>

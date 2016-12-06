@@ -26,107 +26,18 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">WIN-NGMN8G58O94</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdSiWV/cOIkCakxqYFIc+zgAAAAACAAAAAAAQZgAAAAEAACAAAAAqNGqFmVorMPHhDHW2aGpwbRXtgyOWku6bflfWFghiuwAAAAAOgAAAAAIAACAAAAB2FADzrPiEQaLQtB3TFoAjzZBXAmpsm5z4T38GNg3/qZAAAADV4TRBCBCweHP9F7HkHqH5D7XVf71UVrk1O7Li4DtwlhKLUDeIz6z6TGyTTWk/XQY0VioaHPIaXB4p5uFbJnatFJxdpC1A1L+/LPylW65+Pv0ezo+L33NPEacTGaQOZNkOuKNGGS388n1BWeip8M3Pt/clxHIOhRq4rlVpwGGEep5yldD3nTDhO8H7AezFTgtAAAAAsdVemSbBH+1Gl2Q+m9x8xaysrmkTbK1KfexSH3PBZtqDPE7zPUxPikmUunS4QtGSc/rOjOpVCMvStGI/DaXp8A==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdSiWV/cOIkCakxqYFIc+zgAAAAACAAAAAAAQZgAAAAEAACAAAABnGprKw6rxaOWJ+V7Od8ash465zTiERzEpyCXMTnYGrgAAAAAOgAAAAAIAACAAAACmbY1+miOtraqOLONB+3/NW35u0ZOZt8cBmUF6+Z67AZAAAAD9yI0Zv6SCHboBAbpphLp5PA82OZvxhHrsDeeYSvzNMV+6wwbnRTSL61d0DovrhJbqP0CVin3GKyakE4hCSeGrIyodcOZyvW+uuzqHt2Ub9HpKOn0zWxl0qvrfLQe2MiDMBD0h79xPSuHD+wO7H3PVaViINbwtGnR8wwNvBdE8usG/6EMxqI+hnHl8SfPobjZAAAAAIRKu+lmsXy5rSD7q4QynR3jgqQRM6cHLmVv2qL5MTyOMe0ygjttTwiMbFa5w58s7hoqvvOKFiSUpow1XKNKJgw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
-          <SSIS:ConnectionManager SSIS:Name="WIN-NGMN8G58O94_ISW911.BI_SA.conmgr" />
           <SSIS:ConnectionManager SSIS:Name="WIN-NGMN8G58O94_ISW911.BI_DW.conmgr" />
           <SSIS:ConnectionManager SSIS:Name="WIN-NGMN8G58O94_ISW911.BI.conmgr" />
         </SSIS:ConnectionManagers>
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters>
-            <SSIS:Parameter SSIS:Name="CM.WIN-NGMN8G58O94_ISW911.BI_SA.ConnectionString">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="CreationName">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=WIN-NGMN8G58O94\ISW911;Initial Catalog=BI_SA;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
-                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
-              </SSIS:Properties>
-            </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.WIN-NGMN8G58O94_ISW911.BI_SA.InitialCatalog">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="CreationName">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">BI_SA</SSIS:Property>
-                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
-              </SSIS:Properties>
-            </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.WIN-NGMN8G58O94_ISW911.BI_SA.Password">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="CreationName">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Sensitive">1</SSIS:Property>
-                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
-              </SSIS:Properties>
-            </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.WIN-NGMN8G58O94_ISW911.BI_SA.RetainSameConnection">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="CreationName">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
-                <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
-              </SSIS:Properties>
-            </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.WIN-NGMN8G58O94_ISW911.BI_SA.ServerName">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="CreationName">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">WIN-NGMN8G58O94\ISW911</SSIS:Property>
-                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
-              </SSIS:Properties>
-            </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.WIN-NGMN8G58O94_ISW911.BI_SA.UserName">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="CreationName">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
-              </SSIS:Properties>
-            </SSIS:Parameter>
             <SSIS:Parameter SSIS:Name="CM.WIN-NGMN8G58O94_ISW911.BI_DW.ConnectionString">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
@@ -311,10 +222,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">13</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E51F1DC1-0066-4C77-BC56-93DC1488CA53}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{7BE5B270-2F5E-4489-8E6D-CA800B0BFCFD}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
