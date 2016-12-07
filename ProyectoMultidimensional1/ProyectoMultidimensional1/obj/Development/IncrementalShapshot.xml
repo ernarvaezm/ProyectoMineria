@@ -33,42 +33,42 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>CUhpoXZUhppQJaE+14827aP07YY=03/12/2016 22:45:3703/12/2016 22:45:37</TimeStamp>
+        <TimeStamp>LU6VdraJGQrWH0GujW6xtbgvWLE=06/12/2016 12:53:5603/12/2016 22:45:37</TimeStamp>
         <ID>
           <String>TD Tipo Documento</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>C6caun/BVQlxcQJmDIdHVVEMcfI=03/12/2016 22:45:3803/12/2016 22:45:37</TimeStamp>
+        <TimeStamp>UAAhzMvW6ETFut+TpuSUg7frC4E=06/12/2016 12:51:1103/12/2016 22:45:37</TimeStamp>
         <ID>
           <String>TD Articulo</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>MkWRbNLD/QC8UrYN15g8Hr8KF4k=03/12/2016 22:45:3803/12/2016 22:45:37</TimeStamp>
+        <TimeStamp>xdU5+2MGr5Y+fqZjxntVfX+7Bmo=06/12/2016 12:56:0603/12/2016 22:45:37</TimeStamp>
         <ID>
           <String>TD Tiempo</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>/cG/h2khRi0QmzJhRrM/bTl7ZyQ=03/12/2016 22:45:3803/12/2016 22:45:37</TimeStamp>
+        <TimeStamp>9zZxdN7l+tJMpYKDvSfthr2egYw=06/12/2016 12:56:0603/12/2016 22:45:37</TimeStamp>
         <ID>
           <String>TD Cliente</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>1FPY8QeI/+KEbcYel9mJ9EAzmAQ=03/12/2016 22:45:3803/12/2016 22:45:37</TimeStamp>
+        <TimeStamp>xMHBNRY7y6/OGBjtX208ItG95QU=06/12/2016 12:56:0603/12/2016 22:45:37</TimeStamp>
         <ID>
           <String>TD Sucursal</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>PswiJoEm7z5ZmbJLbfjS0NzHW6w=05/12/2016 2:29:0703/12/2016 22:45:36DueqY/F1EhMuhzMuLlHKXhNSC6U=03/12/2016 22:45:3703/12/2016 22:45:36</TimeStamp>
+        <TimeStamp>gh/LQAtprSkjlLZ+T49ZHVgYuHA=06/12/2016 12:56:0603/12/2016 22:45:36DueqY/F1EhMuhzMuLlHKXhNSC6U=03/12/2016 22:45:3703/12/2016 22:45:36</TimeStamp>
         <ID>
           <String>BI DW</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2016-12-06T09:11:14.166667Z</LastDeployed>
+  <LastDeployed>2016-12-06T18:56:08.976667Z</LastDeployed>
 </DeploymentSnapshot>

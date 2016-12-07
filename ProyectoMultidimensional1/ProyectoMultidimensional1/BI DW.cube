@@ -231,7 +231,18 @@
         <Attribute dwd:design-time-name="532a5137-da7e-49b2-9886-11978d360216">
           <AttributeID>Articulo Id</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="2b660342-a66f-450b-8ee6-a40846c28d23">
+          <AttributeID>Articulo Nombre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5ebc3833-dda3-4c9b-8a84-843e502dcd24">
+          <AttributeID>Proveedor Id</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a533e21a-a025-4314-980a-67351c2e9e7b">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="8bd7210b-350a-4f55-ad16-2ef4279057bc">
       <ID>TD Cliente</ID>
@@ -240,6 +251,9 @@
       <Attributes>
         <Attribute dwd:design-time-name="1d752e2a-b6d6-4a01-9f4d-c06ba9571c8d">
           <AttributeID>Cliente Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d31bd4f2-01bc-40bb-a613-75c9499aa260">
+          <AttributeID>Cliente Nombre</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -251,6 +265,9 @@
         <Attribute dwd:design-time-name="2cf91960-2439-4d4c-bce8-bf29f1a66eef">
           <AttributeID>Tipo Id</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="34e683a0-266d-4a4c-ba98-4116a10a1b4a">
+          <AttributeID>Tipo Nombre</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="3e2e2af3-686f-432a-b591-d47ed0dde67b">
@@ -261,6 +278,15 @@
         <Attribute dwd:design-time-name="9644f657-9e6d-4c76-bae6-91f7718c98a4">
           <AttributeID>Fecha ID</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="a0a48944-0887-4b31-9424-ea92c2541bb7">
+          <AttributeID>Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e1862d9-dc88-4a30-84db-7f4525f2757a">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f987e9fa-cf2f-4e13-af04-3a5c1a9fbb24">
+          <AttributeID>Semestre</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="7827f39a-f691-4db6-9937-14cc111a04d2">
@@ -270,6 +296,12 @@
       <Attributes>
         <Attribute dwd:design-time-name="4b3fa5e0-bfce-4ba3-9902-2f52891d2434">
           <AttributeID>Suc Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="825207a8-4812-45b7-9705-5c99f41e94a7">
+          <AttributeID>Suc Nombre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="76affb59-bbe5-4e46-b83c-a60d5c2a6e10">
+          <AttributeID>Suc Direccion</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
